@@ -22,10 +22,10 @@ class ThanhDieuHeader implements ThanhDieuConfigInterface {
     public $bio5 = "Ăn, ngủ, làm và chơi game 🎮";
     public $bio6 = "Kẻ khờ dại tin vào tình yêu ✨";
     public $SocialNetworks = [
-        "facebook" => "https://facebook.com/wusthanhdieu", // Thay link facebook
-        "instagram" => "https://www.instagram.com/vuongsondieu2k2", // Thay link instagram
+        "facebook" => "https://www.facebook.com/DanhCSS?mibextid=ZbWKwL", // Thay link facebook
+        "instagram" => "https://www.instagram.com", // Thay link instagram
         "tiktok" => "https://www.tiktok.com/", // Thay link tiktok
-        "telegram" => "https://t.me/thanhdieuchannel" // Thay link telegram
+        "telegram" => "https://t.me" // Thay link telegram
     ];
     public function CommonMethod(){date_default_timezone_set('Asia/Ho_Chi_Minh');}
 }
@@ -34,12 +34,12 @@ class ThanhDieuHeader implements ThanhDieuConfigInterface {
 class ThanhDieuLoveDays implements ThanhDieuConfigInterface {
     public $ConfigLove = [
         "avatar_male" => "./res/v5/img/male.jpeg", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_male" => "ThanhDieu", // Thay tên của bạn
+        "name_male" => "DanhCSS", // Thay tên của bạn
         //========================================================//
         "avatar_female" => "./res/v5/img/female.jpeg", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_female" => "Ngoc Tram", // Thay tên đối phương
+        "name_female" => "Hong Anh", // Thay tên đối phương
         //========================================================//
-        "time_relashiption" => "28/03/2024" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
+        "time_relashiption" => "7/2/2010" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
         //========================================================//
     ];
     public function CommonMethod() {}
